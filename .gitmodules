@@ -1,0 +1,12 @@
+[submodule "pack/plugins/opt/lightline.vim"]
+	path = pack/plugins/opt/lightline.vim
+	url = https://github.com/itchyny/lightline.vim.git
+[submodule "pack/plugins/opt/onedark.vim"]
+	path = pack/plugins/opt/onedark.vim
+	url = https://github.com/joshdick/onedark.vim.git
+[submodule "pack/plugins/opt/vim-airline"]
+	path = pack/plugins/opt/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "pack/plugins/opt/vim-polyglot"]
+	path = pack/plugins/opt/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot.git
