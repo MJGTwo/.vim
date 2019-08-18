@@ -29,14 +29,19 @@ packadd! onedark.vim
 packadd! vim-polyglot
 packadd! lightline.vim
 packadd! vim-airline
+packadd! vim-airline-themes
 
 syntax on
 if !has('gui_running')
   set t_Co=256
 endif
-
+if !exists('g:airline_symbols')
+  let g:airline_symbols = {}
+endif
+let g:airline_symbols.space = "\ua0"
+let g:airline_powerline_fonts = 1
 let g:onedark_hide_endofbuffer=1
-
+set noshowmode
 let g:lightline = {
   \ 'colorscheme': 'onedark',
   \ }

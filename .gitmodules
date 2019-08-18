@@ -10,3 +10,6 @@
 [submodule "pack/plugins/opt/vim-polyglot"]
 	path = pack/plugins/opt/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot.git
+[submodule "pack/plugins/opt/vim-airline-themes"]
+	path = pack/plugins/opt/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
