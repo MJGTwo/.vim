@@ -1,6 +1,13 @@
 inoremap jk <ESC>
 let mapleader = " "
 set spell spelllang=en_us
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set expandtab
+set laststatus=2
+set rnu
+set backspace=indent,eol,start
 
 "Use 24-bit (true-color) mode in Vim/Neovim when outside tmux.
 "If you're using tmux version 2.2 or later, you can remove the outermost $TMUX check and use tmux's 24-bit color support
@@ -23,7 +30,6 @@ packadd! vim-polyglot
 packadd! lightline.vim
 packadd! vim-airline
 
-set laststatus=2
 syntax on
 if !has('gui_running')
   set t_Co=256
