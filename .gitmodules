@@ -16,3 +16,6 @@
 [submodule "pack/plugins/opt/fzf.vim"]
 	path = pack/plugins/opt/fzf.vim
 	url = https://github.com/junegunn/fzf.vim.git
+[submodule "pack/plugins/opt/vim-gitgutter"]
+	path = pack/plugins/opt/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git

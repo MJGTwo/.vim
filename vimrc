@@ -31,6 +31,7 @@ packadd! lightline.vim
 packadd! vim-airline
 packadd! vim-airline-themes
 packadd! fzf.vim
+packadd! vim-gitgutter
 
 syntax on
 if !has('gui_running')
