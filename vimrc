@@ -30,6 +30,7 @@ packadd! vim-polyglot
 packadd! lightline.vim
 packadd! vim-airline
 packadd! vim-airline-themes
+packadd! fzf.vim
 
 syntax on
 if !has('gui_running')

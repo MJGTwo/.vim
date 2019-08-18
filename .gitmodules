@@ -13,3 +13,6 @@
 [submodule "pack/plugins/opt/vim-airline-themes"]
 	path = pack/plugins/opt/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "pack/plugins/opt/fzf.vim"]
+	path = pack/plugins/opt/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
