@@ -25,6 +25,7 @@ if (empty($TMUX))
   endif
 endif
 
+"Plug-ins
 packadd! onedark.vim
 packadd! vim-polyglot
 packadd! lightline.vim
@@ -32,16 +33,26 @@ packadd! vim-airline
 packadd! vim-airline-themes
 packadd! fzf.vim
 packadd! vim-gitgutter
+packadd! nerdtree
 
+"theme
 syntax on
+
 if !has('gui_running')
   set t_Co=256
 endif
 if !exists('g:airline_symbols')
   let g:airline_symbols = {}
 endif
+
+" NERDTree
+autocmd vimenter * NERDTree
+
+"airline
+let g:airline#extensions#tabline#enabled = 1
 let g:airline_symbols.space = "\ua0"
 let g:airline_powerline_fonts = 1
+"theme
 let g:onedark_hide_endofbuffer=1
 set noshowmode
 let g:lightline = {
