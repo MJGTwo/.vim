@@ -9,6 +9,24 @@ set laststatus=2
 set rnu
 set backspace=indent,eol,start
 
+" set line history 
+set history=500
+
+" auto read when a file changes from outside
+set autoread
+
+set cmdheight=2
+set hid
+set ruler
+
+" Search
+set ignorecase
+set smartcase
+set hlsearch
+set incsearch
+set magic
+
+
 "Use 24-bit (true-color) mode in Vim/Neovim when outside tmux.
 "If you're using tmux version 2.2 or later, you can remove the outermost $TMUX check and use tmux's 24-bit color support
 "(see < http://sunaku.github.io/tmux-24bit-color.html#usage > for more information.)

@@ -12,6 +12,8 @@ Current modifications:
 * fzf support
 * gitgutter support
 * NERDTree
+* advanced search
+* showing position
 
 To use: clone the repo as `.vim` in your home directory, symlink `.vimrc` to `.vim/vimrc` (i.e. `ln -s ~/.vim/vimrc ~/.vimrc`). 
 This allows for easy clone and use on new boxes.
