@@ -13,5 +13,7 @@ Current modifications:
 * gitgutter support
 * NERDTree
 
-To use: clone the repo as `.vim` in your home directory, symlink `.vimrc` to `.vim/vimrc` (i.e. `ln -s ~/.vim/vimrc ~/.vimrc`). 
-This allows for easy clone and use on new boxes.
+## Setup
+ 
+* Clone the repo as `.vim` in your home directory, symlink `.vimrc` to `.vim/vimrc` (i.e. `ln -s ~/.vim/vimrc ~/.vimrc`). 
+* `cd` into the directory `.vim`, run `git submodule init` to initialize the paths to the sub-modules, then run `git submodule update` to clone the plugins. 
