@@ -2,7 +2,7 @@
 
 Current modifications:
 
-* map `jk` to <ESC>
+* map `jk` to `<ESC>`
 * map mapleader to `" "`
 * spellcheck
 * onedark theme with polyglot
