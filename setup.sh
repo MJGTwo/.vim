@@ -2,5 +2,5 @@
 
 ln -s ~/.vim/vimrc ~/.vimrc
 
-git submodule init
-git submodule update
+git -C ~/.vim submodule init
+git -C ~/.vim submodule update
