@@ -33,7 +33,6 @@ packadd! vim-airline
 packadd! vim-airline-themes
 packadd! fzf.vim
 packadd! vim-gitgutter
-packadd! nerdtree
 
 "theme
 syntax on
@@ -46,7 +45,6 @@ if !exists('g:airline_symbols')
 endif
 
 " NERDTree
-autocmd vimenter * NERDTree
 
 "airline
 let g:airline#extensions#tabline#enabled = 1
